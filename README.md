@@ -26,8 +26,8 @@ temel .eklem ( yazma )
 
     : tamsayı ışık_hızı 299792458 // usize
     ; güney yön.güney
-    ; güney 125,125
-    yön.güney .z ( güney )
+    ; güney 125,125 // kay4
+    yön.güney .z ( güney ) // 125 tüm4
 
     :: a = 2 // ya değişmeyen
         yazma ( 2 )
