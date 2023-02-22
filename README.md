@@ -45,11 +45,11 @@ temel .eklem ( yazma )
     ; liste [ 'a' 'b' 'c' 'ç' 'd' 1 2 3 4 5 ]
     ; çift_liste [ : 'a' 1 : 'b' 2 : 'c' 3 : 'ç' 4 : 'd' 5 ]
     yazma ( çift_liste [ 'ç' ] ) // 4
-    yazma ( 'mersin' ) .tersine ()
+    yazma ( 'mersin' ) .tersine () // "nisrem"
 
-    ; ad kabuğu.oku ()
+    ; ad kabuğu .oku ()
 
-    yazma ( ' "b arkadaşım " ' ad ) // "merhaba arkadaşim"
+    yazma ( ' "b arkadaşım " ' ad ) // "merhaba arkadaşım"
 
 // işlev
 :;  tüm4 ekle ; tüm4 x ; tüm4 y
